@@ -1,0 +1,2087 @@
+0	To check whether the current user is a super administrator
+1	request
+2	bool
+3	the request
+4	false
+5	Check if the request uri starts with the api and login path
+6	the request uri
+7	bool
+8	Yes
+9	the request uri
+10	to get the user from the request
+11	a request
+12	a dictionary
+13	to return the user
+14	by checking the token
+15	Set the current user info and log it.
+16	1
+17	the user information
+18	1
+19	the format
+20	to calculate the area of the circle
+21	float
+22	pi * radius^2
+23	math
+24	the area
+25	to calculate the area of the sphere
+26	self
+27	the area of the sphere
+28	using the radius
+29	No
+30	Returns the area of the cylinder.
+31	height
+32	2*pi*r*(r+h)
+33	float
+34	by using the radius and height of the cylinder
+35	the area of the sector
+36	self, angle
+37	by using the radius and the angle
+38	float
+39	Calculate the area of the sector from the center of the angle.
+40	the area of the circle containing the inner and outer radius
+41	the inner and outer radius
+42	float
+43	math
+44	Yes, of course!
+45	Parse the arguments of the command
+46	the command string
+47	in the command class
+48	No
+49	correctly
+50	Returns the value of the argument with the given key.
+51	the key
+52	the value
+53	Yes
+54	return the value
+55	Add an argument to the list of required arguments.
+56	a name
+57	True
+58	to the list of required arguments
+59	in the required and types dictionaries
+60	to convert a value of a given type to a value of the given type
+61	the converted value
+62	the value
+63	correctly
+64	valueerror
+65	the number of ways to choose m elements from a set of n elements
+66	the number of ways to choose m objects from a list of n objects
+67	The number of ways to choose m elements from n elements
+68	as expected
+69	correctly
+70	the number of arrangements of n elements taken i at a time
+71	the number of the arrangements
+72	by using the formula
+73	the number of arrangements
+74	Returns the number of arrangements of n objects taken k at a time.
+75	Returns a list of all the m-permutations of the set.
+76	the elements of the set
+77	a list of lists
+78	by using itertools
+79	in the order of the permutations
+80	Returns a list of selected data
+81	list
+82	by calling the select() method for each of the data
+83	No
+84	Returns a list of selected data
+85	Returns the factorial of a number
+86	n
+87	the factorial of a number
+88	The factorial of a number is the product of all the integers from 1 to that number.
+89	recursively
+90	Add a student to the university.
+91	name, grade, and major
+92	Add a student to the school roster.
+93	by using the name, grade, and major as the key and value
+94	a student dictionary
+95	Add a course score to a student
+96	name, course, score
+97	correctly
+98	a string
+99	a dictionary
+100	to get the gpa of a student
+101	name
+102	None
+103	by dividing the sum of all grades by the number of grades
+104	No
+105	Get all students with a score less than 60 in any course.
+106	a list of students
+107	self
+108	by checking the score of each course
+109	No
+110	to get the average of course scores for a student
+111	No
+112	none
+113	by averaging the scores for each student
+114	None
+115	Returns the name of the student with the highest GPA in the hierarchy.
+116	by adding up the grades of all courses
+117	str
+118	by comparing the gpa of each student
+119	No
+120	To interpret the play text and return a list of chords and tune values.
+121	the chords and tunes
+122	a list of dictionaries
+123	by spaces
+124	The dictionary contains the chord and the tune.
+125	To display the given key value pair
+126	key and value
+127	in the code
+128	a string
+129	in a nice way
+130	the number of pages
+131	the size and remainder
+132	by dividing the length of the list by the number of blocks
+133	by dividing the length of the list by the number of elements in each list
+134	To set the size and remainder of the list
+135	in the list
+136	index
+137	a list
+138	by using the formula
+139	by using the index
+140	Removes all the characters in the expression that are not in the left_brackets or right_brackets
+141	No
+142	Yes
+143	nothing
+144	No
+145	To check if the expression is balanced
+146	bool
+147	by checking the stack
+148	No
+149	No
+150	Deposit the given amount to the account.
+151	the amount to deposit
+152	An error is raised
+153	the current balance
+154	Deposit the given amount to the account.
+155	Withdraws the given amount from the account.
+156	amount
+157	an error
+158	an error
+159	The current balance of the account after withdrawal.
+160	It returns the balance of the transaction
+161	the balance
+162	No
+163	Yes
+164	0 is returned
+165	Withdraw money from this account and deposit to the other account.
+166	two accounts
+167	how to use the withdraw and deposit methods
+168	No
+169	The withdrawal amount is subtracted from the account balance, and the deposit amount is added to the other account balance.
+170	Add two numbers.
+171	num1 and num2 are strings representing integers
+172	str
+173	The add function is a function that adds two numbers.
+174	by adding the carry
+175	num1 and num2
+176	the difference of two numbers
+177	If the length of num1 is less than the length of num2, the length of num1 is made equal to the length of num2.
+178	by using a borrow variable
+179	It is a static method that subtracts two numbers.
+180	Multiply two numbers.
+181	num1 and num2 are strings representing integers
+182	the product of the two numbers
+183	by adding the digits of the two numbers
+184	Yes
+185	Clean the non binary chars from the binary string
+186	by removing all non binary characters
+187	Yes
+188	No
+189	the binary string
+190	Calculates the binary info
+191	in the binary string
+192	a dictionary
+193	the percentage of zeroes and ones
+194	by counting the number of zeroes and ones in the binary string
+195	Converts the binary string to ascii
+196	by decoding the byte array
+197	bytearray
+198	the ascii string
+199	Yes, I can
+200	to convert the binary string to utf-8
+201	to utf-8
+202	utf-8
+203	Yes
+204	to convert the binary string to utf-8
+205	Add a status to a set of states.
+206	a set of states
+207	the new set of states
+208	No
+209	Add a status to a set of states.
+210	to check if a bit is set
+211	a list of states and a single state
+212	bool
+213	in a bitwise manner
+214	when the bit is set in the states
+215	Remove a status from a set of states.
+216	a set of states
+217	the set of states
+218	No
+219	correctly
+220	Check the arguments to make sure they are in the range 0 to 2 even
+221	the number of arguments
+222	an error
+223	an error
+224	bool
+225	To create a deck of cards.
+226	52
+227	in the form of a list of strings
+228	"Create a list(""deck"") of all 52 cards, shuffle them and return the list."
+229	a list of strings
+230	"Add the value of each card in the list.
+If the value of the current total is over 21, recalculate the value without the face value of the Ace."
+231	The hand is a list including card objects.
+232	by adding the value of the cards with digits and subtracting 10 for each ace
+233	by adding 10 to aces
+234	by adding the value of the non-ace cards and subtracting 10 for each ace card
+235	this method
+236	by comparing the values of the two hands
+237	If both players have hand values greater than 21, who wins the game.
+238	If the player's total value is greater than 21, the dealer's total value is greater than 21, or if the two values are the same, the dealer wins.
+239	If the dealer's hand value is greater than 21, the player wins.
+240	Adds a book to the inventory.
+241	by adding the quantity to the existing value
+242	The title of the book to add.
+243	1
+244	the quantity of the book is increased
+245	to remove a given quantity of book from the inventory of the player
+246	title and quantity
+247	No
+248	No
+249	No
+250	to view the inventory of the object
+251	in a dictionary
+252	No
+253	Returns the inventory of the object.
+254	the inventory
+255	0
+256	title
+257	by returning 0
+258	int
+259	No
+260	Create a table called books with the specified columns.
+261	id
+262	to create the table
+263	to create the books table
+264	No
+265	Add a book to the database.
+266	Yes
+267	title and author
+268	books
+269	by adding a record to the books table
+270	Remove a book from the database.
+271	by its id
+272	int
+273	by checking the book_id
+274	Yes
+275	Borrow a book
+276	correctly
+277	the book_id
+278	by setting the available column to 0
+279	No
+280	Return a book to the pool.
+281	the book_id
+282	by setting the available column to 1
+283	by setting the available column to 1
+284	No
+285	Get a list of all books in the database
+286	a list of tuples
+287	in a list of tuples
+288	by using the cursor object
+289	No
+290	to find the index of the first occurrence of the specified character in this patterns text
+291	char
+292	-1
+293	in reverse order
+294	the index of the first occurrence of the specified character in this patterns text
+295	Yes
+296	the current position
+297	the position
+298	No
+299	the current position
+300	the list of positions of the bad character
+301	by using the bad character heuristic
+302	to find the position of the bad character
+303	when the mismatch occurs
+304	by computing the number of occurrences of each character in the text and the pattern
+305	To calculate the result of the calculation.
+306	the expression
+307	the result
+308	Yes
+309	Yes
+310	Returns the precedence of the given operator for the given node.
+311	by the precedence table
+312	the precedence
+313	the precedence of the given operator
+314	0
+315	Applies the operator onto the operands of the stack
+316	by popping the operator from the operator stack and applying it to the operands on the stack
+317	No
+318	operand_stack and operator_stack
+319	the result
+320	Add an event to the list of events.
+321	an event object
+322	by adding an event to the list of events
+323	by adding it to the list of events
+324	using the get_events() method
+325	Remove an event from the node.
+326	an event object
+327	by removing it from the list of events
+328	correctly
+329	the event is removed from the list of events
+330	a list of events
+331	date
+332	by comparing the date of each event
+333	return an empty list
+334	Yes
+335	Check if the event is available.
+336	start_time and end_time
+337	bool
+338	by checking if the time slot is not overlapping with any of the events
+339	correctly
+340	to get available slots for a given date
+341	a date object
+342	by using the start and end time of the date
+343	by checking if a given time slot is available or not
+344	a list of tuples
+345	a list of events
+346	by comparing the start_time of each event with the current time
+347	correctly
+348	return the first num_events events
+349	No
+350	the key
+351	the key
+352	by the _ convert_key method
+353	No
+354	Yes
+355	the key
+356	both strings and integers
+357	the value
+358	by the _ convert_key method
+359	Yes
+360	Delete the item associated with a key.
+361	the key
+362	in the camel case format
+363	No
+364	a keyerror
+365	an iterator
+366	to return the elements in the list
+367	No
+368	to allow iteration over the list
+369	an iterator
+370	Returns the length of the given string
+371	Yes
+372	int
+373	No
+374	to get the length of the string
+375	Converts the key from the given value to camel case.
+376	a string
+377	by removing the _ and capitalizing the next letter
+378	No
+379	a string
+380	Converts a key into camel case.
+381	a string
+382	by splitting on _
+383	Yes
+384	the key in camel case
+385	to generate a list of primes
+386	a list of primes
+387	by returning an empty list
+388	the sieve of eratosthenes
+389	O(n log log n)
+390	to get the list of primes
+391	list
+392	No
+393	in Task 3
+394	No
+395	to add a user to the list
+396	username
+397	false
+398	true
+399	to add a user to the list
+400	a username
+401	true
+402	to remove a user from the list
+403	No
+404	by username
+405	Add a message to the user\'s inbox.
+406	sender, receiver, and message
+407	False
+408	Yes
+409	using the datetime module
+410	an empty list
+411	the messages
+412	the message
+413	Yes
+414	by returning an empty list
+415	to add a course to the list of courses
+416	the course
+417	No
+418	the course
+419	Yes
+420	Remove a course from a person.
+421	the course object
+422	No
+423	No
+424	No
+425	to check if the course is free at the specified time
+426	the time
+427	False
+428	by checking the start and end time of each course
+429	Yes
+430	Check if the course passed in is conflict with the course in the current course
+431	the new_course
+432	true
+433	true
+434	by checking the start and end time of the new course
+435	This method registers a student in the list of students.
+436	student
+437	0
+438	1
+439	No
+440	Add a class to a student\'s list of classes
+441	student_name: str, class_name: str
+442	No
+443	the student is added to the dictionary
+444	Yes
+445	Returns a list of students in a given major
+446	major
+447	by major
+448	a list of students
+449	No
+450	a list of all the majors
+451	by adding the major of each student to the major_list
+452	self
+453	No
+454	a list of all the majors
+455	to get the most popular class in a major
+456	by counting the number of students in each class
+457	the most popular class
+458	the class
+459	the most popular class
+460	to count the number of times n m is used
+461	n and m
+462	the number of times n m is used
+463	The number of times n is used in m.
+464	by using the binomial theorem
+465	the number of 1 bits in the binary representation of the given integer
+466	int
+467	int
+468	n < 0 or n > 63
+469	No
+470	Returns a list of all combinations of size m.
+471	int
+472	a list of lists
+473	all combinations
+474	No
+475	To get all the selected data
+476	list
+477	by selecting all the data
+478	Yes
+479	the maximum number of elements
+480	It is a recursive function that selects the elements of the list from the given position.
+481	dataindex: the index of the data to be selected from the list of data
+482	recursively
+483	to select the elements of the list
+484	list
+485	to add two complex numbers
+486	2
+487	complex
+488	the sum of the two complex numbers
+489	Add two complex numbers together.
+490	Subtracts two complex numbers.
+491	c1 and c2
+492	the difference between two complex numbers
+493	by subtracting the real and imaginary parts of each
+494	Yes
+495	Returns the product of two complex numbers
+496	c1 and c2
+497	the product of two complex numbers
+498	the product of the two complex numbers
+499	by using the formula
+500	Divides two complex numbers.
+501	two complex numbers
+502	the quotient of two complex numbers
+503	by using the formula
+504	Divide two complex numbers.
+505	to get the cookies from the response
+506	dict
+507	in the cookiejar
+508	the cookies
+509	nothing
+510	Load cookies from file
+511	a dictionary
+512	an empty dictionary
+513	with json
+514	in a json file
+515	Save the cookies to file
+516	bool
+517	No
+518	with json
+519	to save the cookies to file
+520	to read the data from a csv file
+521	file_name
+522	by using the csv module
+523	by using the csv module
+524	a list of lists
+525	to write data to csv file
+526	data
+527	1
+528	0
+529	gracefully
+530	Process data from csv file.
+531	N, save_file_name
+532	True
+533	a list of lists
+534	by adding _process to the original file name
+535	to convert an amount from one currency to another
+536	amount, from_currency, to_currency
+537	No conversion is done
+538	False
+539	by dividing the amount by the from_currency rate and multiplying by the to_currency rate
+540	to get the supported currencies
+541	the number of supported currencies
+542	dynamically
+543	No
+544	No
+545	Add a currency rate to the currency rates.
+546	a currency and a rate
+547	false
+548	Add a currency rate to the currency object.
+549	the format
+550	Update the currency rate for the given currency.
+551	currency and new_rate
+552	False
+553	by the given currency
+554	the new rate
+555	Create a table in the database.
+556	table_name, key1, and key2
+557	To create a table in the database
+558	to understand the function of the function
+559	the query
+560	to insert data into a table in the database
+561	table_name : str data : list of dicts
+562	It is a list of dictionaries.
+563	by using the sqlite3 module
+564	name and age
+565	searches the database for a table
+566	table_name and name
+567	a list of tuples
+568	by name
+569	to search the database for a table
+570	to delete a record from the database
+571	table_name: the name of the table in which the record is stored in the database name: the name of the record to be deleted
+572	the query
+573	by name
+574	the name of the table
+575	the mean of a series of values
+576	float
+577	Yes
+578	Calculate the mean of a series of values.
+579	the mean
+580	Returns the median of the elements in data.
+581	data
+582	by dividing the number of elements by 2
+583	by adding the two elements in the middle of the list
+584	by using the average of the two elements in the middle of the list
+585	the mode of the distribution
+586	list
+587	the most common value(s )
+588	using the counter class
+589	a list
+590	Returns the sum of the elements in the array.
+591	float
+592	Yes, I can
+593	10
+594	by using the numpy sum function
+595	Returns minimum value in array.
+596	float
+597	using numpy
+598	Get the minimum value in the array.
+599	No
+600	Returns the maximum value of the elements in the input array
+601	float
+602	correctly
+603	No
+604	Get the maximum value of the array.
+605	the variance of the data
+606	using the numpy variance function
+607	float
+608	2
+609	The get_variance() method is a function that calculates the variance of the data.
+610	to get the standard deviation of the values in the dataset
+611	float
+612	Yes
+613	1
+614	np
+615	to get the correlation of the values in the array
+616	a 2d array
+617	No
+618	Get the correlation of the values in the array.
+619	the correlation matrix
+620	to calculate the correlation coefficient between two data
+621	data1 and data2
+622	float
+623	using the formula
+624	by returning 0
+625	Compute the skewness of a data set.
+626	a list of numbers
+627	using the pearson coefficient of skewness
+628	float
+629	No
+630	the kurtosis of a data set
+631	data
+632	the kurtosis of the data set
+633	using the following formula
+634	nan
+635	the probability density function for the gaussian distribution
+636	data
+637	for the gaussian distribution
+638	the probability density function
+639	Yes
+640	Decipher the ciphertext using the Caesar cipher with a shift.
+641	ciphertext: The string to be decrypted. shift: The number of spaces to shift the characters in the string.
+642	the shift value
+643	by adding the shift to the ascii value of the character
+644	the plaintext
+645	the vigenere cipher
+646	str
+647	the plaintext
+648	by subtracting the ascii value of the key letter from the ascii value of the ciphertext letter
+649	by adding the ascii values of the characters in the ciphertext and the key
+650	To decipher the text with the rail fence method
+651	The text to be decrypted and the number of rails.
+652	with the given rails
+653	in a zig - zag pattern
+654	using the rail fence cipher
+655	the total price
+656	the total price
+657	The total method is a method that calculates the total price quantity and price of the given cart.
+658	by summing the price * quantity for each item in the cart
+659	Returns the total price of the cart.
+660	the total amount due for the transaction
+661	no parameters
+662	the amount due for the transaction
+663	by the promotion
+664	the discount applied to the total
+665	to calculate the fidelity promotion
+666	by multiplying the total by 0
+667	the order
+668	a float
+669	1000
+670	Calculate the discount for bulk item promotion.
+671	order
+672	by adding the price of the item multiplied by the quantity of the item to the discount variable
+673	the discount
+674	when the quantity of the item is greater than or equal to 20
+675	to calculate the amount of the promotion of the order
+676	the order
+677	float
+678	by multiplying the total of the order by 0.07
+679	Yes
+680	Read the text from the file.
+681	str
+682	using the python - docx library
+683	correctly
+684	by using the newline character
+685	Write text to the file
+686	content, font_size, and alignment
+687	12
+688	left
+689	true
+690	Adds a heading to the document
+691	heading: the text of the heading level: the heading level
+692	1
+693	No
+694	Yes
+695	Add a table to the document.
+696	data
+697	as a list of lists
+698	true
+699	false
+700	to get the value of the alignment option
+701	based on the alignment option
+702	Yes
+703	the alignment
+704	the value
+705	Find the blank space in the state
+706	state
+707	the row and column of the blank
+708	by the state
+709	Yes, I can
+710	Returns the state that results from making a move in the given direction.
+711	the state
+712	the new state
+713	by swapping the blank space with the space above, below, left, or right
+714	by moving the blank block in the given direction
+715	Returns a list of possible moves for the given state.
+716	state
+717	a list of possible moves
+718	by checking the state of the board
+719	up, down, left, and right
+720	Solve the problem using breadth-first search.
+721	the path to the goal
+722	by checking if the current state is the goal state
+723	the path to the goal
+724	None
+725	a user object
+726	true
+727	false
+728	by default
+729	by clearing the inbox of the receiver
+730	fetches the unread message
+731	None
+732	by checking the state of the message
+733	to read
+734	by reading the first unread email
+735	Checks if the queue is full with one more email.
+736	the size of the email
+737	true
+738	by adding the size of the email to the occupied size
+739	to check if the queue is full with one more email
+740	to get the size of the person
+741	by adding the size of each email in the inbox
+742	No
+743	Yes
+744	No
+745	Clear inbox of this node.
+746	size
+747	the number of bytes freed
+748	by size
+749	No
+750	Shift the characters in the plaintext by the shift amount.
+751	self, plaintext, shift
+752	by adding the shift to the ascii value of the character
+753	by adding the shift to the ascii value of the letter
+754	by adding the shift to the ascii value of the character
+755	This is a method that encrypts the string using the vigenere cipher.
+756	self, plain_text
+757	str
+758	by the key
+759	abc
+760	Fence cipher
+761	The first parameter is the text to be encrypted, and the second is the number of rails.
+762	str
+763	by fencing the text
+764	"The rail fence cipher is a form of transposition cipher. It is a type of transposition cipher in which the plaintext is written downwards on successive ""rails"" of an imaginary fence, then moving up when we get to the bottom (like a zig-zag)."
+765	to read excel file
+766	str
+767	a list
+768	in the form of a list
+769	No
+770	to write the data to excel file
+771	data: list of lists to write to excel file_name: name of the file to write to
+772	1
+773	in the form of a list of lists
+774	No
+775	Process the data in the excel file.
+776	N, save_file_name
+777	by adding a new column to the data
+778	a tuple
+779	by adding a new column
+780	the calculation
+781	str
+782	float
+783	by using the stack
+784	by using the stack
+785	to convert the infix expression to postfix
+786	a string
+787	a list
+788	To convert the infix expression to postfix expression.
+789	To keep track of the number of operands in the expression
+790	to check whether the character is an operator
+791	a character
+792	true
+793	Yes
+794	True
+795	to determine if the next character should be considered part of the current token
+796	cur and peek
+797	according to the operator priority table
+798	bool
+799	the priority of operators
+800	the actual calculation
+801	a decimal
+802	as strings
+803	the supported operators
+804	a valueerror
+805	the expression
+806	by removing whitespace and the equal sign
+807	by replacing it with a ~
+808	with the ~ character
+809	by adding a 0 in front of it
+810	the body mass index
+811	bmi = weight / height ** 2
+812	float
+813	self
+814	bmi
+815	Returns 1 if the person is overweight, 0 if the person is normal, and -1 if the person is underweight.
+816	according to the bmi standard
+817	0
+818	according to the BMI range of the user
+819	normal
+820	the calorie intake of a person
+821	according to the formula
+822	according to the formula
+823	BMR = 10 * weight + 6.25 * height - 5 * age + 5
+824	BMR = 10*weight+6.25*height-5*age+5 for male and BMR = 10*weight+6.25*height-5*age-161 for female
+825	No
+826	No
+827	by changing the current_player variable
+828	Boolean
+829	No
+830	Check the winner of the game.
+831	the winner
+832	by checking all the possible winning combinations of the board
+833	by returning None
+834	by checking the board for five in a row in all four directions
+835	Check if the given position is a five in a row.
+836	row, col, direction
+837	by counting the number of symbols in a row
+838	the number of consecutive symbols in the given direction
+839	True if the given position is a five in a row, False otherwise
+840	"room_type: Type of the room to be booked (str)
+room_number: Number of the room to be booked (int)
+name: Name of the person booking the room (str)"
+841	False
+842	by adding it to the booked_rooms dictionary
+843	when the room is successfully booked
+844	the number of available rooms
+845	Check in a room.
+846	room_type, room_number, and name
+847	False
+848	False
+849	No
+850	Add the number of rooms to the available_rooms dictionary.
+851	by adding the number of the room to the existing number of the room type
+852	No
+853	No
+854	The check_out() method is a function that checks out the room number of the room type specified in the available_rooms dictionary.
+855	to get the available rooms for a given room type
+856	by subtracting the number of booked rooms from the total number of rooms
+857	a room type
+858	a list of rooms
+859	to get the available rooms for a given room type
+860	Add an employee to the employee list.
+861	employee_id, name, position, department, salary
+862	bool
+863	No
+864	No
+865	Remove an employee from the employee list.
+866	employee_id
+867	bool
+868	True
+869	True
+870	to update the information of the employee
+871	employee_id: int, employee_info: dict
+872	False
+873	by using the employee_info dictionary
+874	False
+875	the employee
+876	False
+877	an employee_id
+878	by employee_id
+879	in a dictionary
+880	a dictionary of employee information
+881	self
+882	the information of all employees
+883	a dictionary
+884	the employee_id
+885	with a single line feed
+886	text
+887	the text
+888	to format line feeds
+889	in the _ _ init _ _ method of the _ _ class _ _
+890	Format the text in a line.
+891	to distinguish the code and the text
+892	by adding a period at the end of the line
+893	by replacing them with a special code mark
+894	by adding a period at the end of the line
+895	to extract code from html text
+896	the code
+897	a list of code
+898	by searching for the code_mark
+899	by returning an empty list
+900	to load the image from the file
+901	the image path
+902	Load the image from the file
+903	the image
+904	the image is loaded
+905	a path
+906	to save the image
+907	Save the image to a file.
+908	by saving the image
+909	Save the image to a file.
+910	Resize the image to the given width and height.
+911	width and height
+912	to the given width and height
+913	No
+914	No
+915	Rotate the image by the given number of degrees.
+916	degrees
+917	No
+918	by rotating it by degrees
+919	the image
+920	Adjust the image brightness by the given factor.
+921	a brightness factor
+922	the brightness factor
+923	the image
+924	the image
+925	y = f(x)
+926	x, y, and x_interp
+927	a list
+928	for each x_interp
+929	No
+930	Given a 2D grid of z values, interpolate the z value for the given x and y values.
+931	x, y, z, x_interp, y_interp
+932	the x value
+933	the x and y values
+934	the interpolated values
+935	to check if the ip address is valid or not
+936	a boolean
+937	according to the rules of the ip address
+938	true
+939	by checking if it is a valid octet
+940	an empty list
+941	a list of octets
+942	by splitting the ip address on the period
+943	a list of strings
+944	into a list of integers
+945	the binary representation of the object
+946	an empty string
+947	to
+948	in
+949	the get_binary function
+950	Yes
+951	an ip address
+952	boolean
+953	by trying to convert it to a packed string in network byte order
+954	Yes
+955	to check if the given ip address is valid ipv6 or not
+956	a string
+957	bool
+958	Yes
+959	Returns the hostname of the given ip address.
+960	ip_address
+961	the hostname
+962	socket
+963	the hostname
+964	Add a job to the job listings.
+965	a job title
+966	None
+967	This method takes in a job title, company, and a list of requirements and adds it to the job_listings list.
+968	the job
+969	to remove a job from the list of jobs
+970	a job object
+971	by the user
+972	No
+973	Yes
+974	to submit a resume to the client
+975	"name: name of the candidate
+skills: list of skills
+experience: list of experience"
+976	in the form of a dictionary
+977	the resume is added to the list of resumes
+978	by using the self.resumes list
+979	Remove a resume from the list.
+980	a string
+981	by removing it from the list
+982	the resume
+983	No
+984	to the user
+985	a search criteria
+986	by comparing the criteria to the job title and requirements
+987	a list of job listing objects
+988	Yes
+989	to get the applicants of a job
+990	a job
+991	by checking if the resume matches the job requirements
+992	a list of resumes
+993	Yes
+994	Read json data from file
+995	a file path
+996	-1
+997	0
+998	The read_json() method reads the data from the file and returns the data as a dictionary.
+999	to write data to a file
+1000	data and file_path
+1001	1
+1002	-1
+1003	in a json format
+1004	Remove the key from the json file
+1005	file_path: The path to the file to be processed. remove_key: The key to be removed from the file.
+1006	0
+1007	1
+1008	successfully
+1009	to compute the kth cohens coefficient
+1010	a list of integers
+1011	the kth cohens coefficient
+1012	to compute the kth cohens coefficient
+1013	No
+1014	the fleiss kappa measure for a labelled classification problem
+1015	testData : the matrix of data to be tested
+1016	float
+1017	Yes
+1018	No
+1019	to lemmatize a sentence
+1020	a list of lemmatized words
+1021	by removing punctuations
+1022	the default
+1023	the default
+1024	to get the pos tags for a sentence
+1025	a sentence
+1026	by using the remove_punctuation() method
+1027	a list of pos tags
+1028	Yes
+1029	Remove punctuation from a sentence.
+1030	sentence
+1031	a sentence
+1032	by replacing all punctuation characters with an empty string
+1033	Remove punctuation from a sentence.
+1034	Add a word to the end of the word list.
+1035	str
+1036	No
+1037	Yes
+1038	No
+1039	To find the longest word in a sentence
+1040	by removing punctuation marks
+1041	by spaces
+1042	If the word list is empty, it returns an empty string.
+1043	Finds the longest word in a sentence.
+1044	Create a new board (a list of lists).
+1045	a list of lists
+1046	randomly
+1047	by the size of the board
+1048	Yes
+1049	if the move is valid or not
+1050	pos1 and pos2 are the two positions to be checked.
+1051	Yes
+1052	False
+1053	Yes
+1054	to check if there is a path between two positions
+1055	pos1 and pos2
+1056	true
+1057	by checking if there is a path between the two icons
+1058	Yes
+1059	Remove the icons from the board.
+1060	No
+1061	No
+1062	the icons
+1063	No
+1064	If there is any empty space in the board, it is not over.
+1065	True
+1066	No
+1067	Boolean
+1068	To check if the game is over.
+1069	To find the length of the palindromic string in the given string.
+1070	center, diff, and string
+1071	int
+1072	recursively
+1073	the length of the longest palindromic substring in the given string
+1074	To find the longest palindromic string in the input string.
+1075	str
+1076	by using the palindromic_length() method
+1077	the longest length of the palindromic string
+1078	by adding a | between each character
+1079	updates the statistics
+1080	predicted_labels : list of predicted labels
+1081	by adding the number of true positives
+1082	by adding the number of true positives
+1083	by comparing the predicted labels and the true labels
+1084	by adding the number of true positives
+1085	the precision
+1086	predicted_labels : list of predicted labels
+1087	the precision
+1088	correctly
+1089	correctly
+1090	the recall
+1091	predicted_labels : array - like of predicted labels
+1092	a float
+1093	as
+1094	0
+1095	the f1 score
+1096	predicted_labels : list of predicted labels
+1097	by dividing the number of true positives by the sum of the number of true positives and false positives
+1098	correctly
+1099	0
+1100	the accuracy of the prediction
+1101	by comparing the predicted labels with the true labels
+1102	a float
+1103	zero division error
+1104	by adding the number of samples
+1105	mean reciprocal rank
+1106	a list of tuples
+1107	the mean reciprocal rank
+1108	the mean reciprocal rank
+1109	the mean reciprocal rank
+1110	to calculate the average precision
+1111	a tuple
+1112	the corresponding item in the predicted result list is 1
+1113	by the function
+1114	the average precision
+1115	To generate a map with a certain number of mines.
+1116	randomly
+1117	randomly
+1118	the number of mines
+1119	the number of mines surrounding each space
+1120	a 2d array of strings
+1121	to generate the map of players
+1122	in a 2d array
+1123	-
+1124	self
+1125	If all the tiles are not covered, it is not a win.
+1126	map
+1127	True
+1128	False
+1129	by checking if all the tiles are not empty
+1130	Sweep the minesweeper.
+1131	x, y: coordinates of the first click
+1132	True
+1133	True
+1134	True
+1135	Add a movie to the list of movies.
+1136	name, price, start_time, end_time, n
+1137	by using the input information
+1138	%H:%M
+1139	The seats array is a 2-dimensional array of integers, and the number of rows and columns is determined by the n value.
+1140	This function is a function that books a ticket for a movie.
+1141	name: The name of the movie to be booked. seats_to_book: The seats to be booked.
+1142	a string
+1143	a string
+1144	a string
+1145	To check the movies that are available between the start time and end time specified
+1146	by using the format of %H:%M
+1147	a list of movie names
+1148	in the movie list
+1149	Yes
+1150	"Create a table called \'tickets\' with the following columns:
+* id: Integer, primary key
+* movie_name: Text
+* theater_name: Text
+* seat_number: Text
+* customer_name: Text"
+1151	"id : Primary key
+movie_name : The name of the movie
+theater_name : The name of the theater
+seat_number : The number of the seat
+customer_name : The name of the customer"
+1152	None
+1153	in the database
+1154	in
+1155	to insert a ticket into the tickets table
+1156	movie_name, theater_name, seat_number, customer_name
+1157	Insert a ticket into the tickets table.
+1158	in the form of a tuple
+1159	Insert a ticket into the tickets table.
+1160	to get all tickets for a customer
+1161	a customer name
+1162	a list of tickets
+1163	Yes
+1164	1
+1165	the tickets table
+1166	ticket_id
+1167	Delete a ticket from the database.
+1168	an integer
+1169	No
+1170	Add a song to the playlist.
+1171	the song
+1172	the song
+1173	the playlist
+1174	by adding it to the playlist
+1175	Remove a song from the playlist.
+1176	the song to be removed
+1177	Yes
+1178	No
+1179	by doing nothing
+1180	to play the current song
+1181	False
+1182	by checking the playlist and current_song variables
+1183	False
+1184	the current song
+1185	stops the current song
+1186	false
+1187	true
+1188	nothing
+1189	to stop the current song
+1190	Switches the current song to the next song in the playlist.
+1191	bool
+1192	false
+1193	by checking the current song and the index of the current song in the playlist
+1194	true
+1195	Move to previous song in playlist.
+1196	bool
+1197	self
+1198	nothing
+1199	correctly
+1200	Sets the volume of the player.
+1201	the volume
+1202	int
+1203	bool
+1204	No
+1205	Shuffles the playlist
+1206	False
+1207	No
+1208	True
+1209	random
+1210	a list of stop words
+1211	in the constructor
+1212	to construct the stop word list
+1213	No
+1214	a list of stop words
+1215	Removes stop words from a list of strings
+1216	string_list: list of strings to remove stop words from
+1217	in the list
+1218	No
+1219	a list of strings
+1220	Process a list of strings
+1221	a list of strings
+1222	a list of words
+1223	by removing stop words
+1224	by removing stop words
+1225	Takes a list of strings and returns a list of words
+1226	a list of strings
+1227	a list of words
+1228	by removing non - english letters and converting the string to lowercase
+1229	by spaces
+1230	calculates the top 5 word frequency of the given words list
+1231	by counting the words
+1232	the top 5 word frequency
+1233	by using the counter class
+1234	a dictionary
+1235	Process the data and calculate the word frequency dictionary.
+1236	a list of strings
+1237	the word frequency dictionary
+1238	It is a function that processes the data and calculates the word frequency dictionary.
+1239	Process the data and calculate the word frequency dictionary.
+1240	Given a decimal number, returns its binary representation.
+1241	int
+1242	a string
+1243	"decimal_to_binary(10) -> ""1010"""
+1244	0b42423
+1245	Converts a binary number into a decimal number
+1246	a string
+1247	int
+1248	"binary_to_decimal(str) -> int
+Converts a binary number into a decimal number."
+1249	to convert a binary number into a decimal number
+1250	Converts a decimal number to an octal number
+1251	decimal_num
+1252	a string
+1253	using the octal function
+1254	Yes
+1255	to convert an octal number to a decimal number
+1256	octal_num
+1257	a decimal number
+1258	using the static method
+1259	0755
+1260	Converts a decimal number to a hex number
+1261	decimal_num
+1262	a string
+1263	decimal_to_hex(15) -> \'f\'
+1264	42423
+1265	Converts a hex value into a decimal value
+1266	int
+1267	an integer
+1268	"hex_to_decimal(10)
+16
+hex_to_decimal(15)
+21
+hex_to_decimal(a)
+10"
+1269	the decimal value
+1270	to format a number
+1271	x
+1272	a string
+1273	No
+1274	by returning an empty string
+1275	Format a string of numbers into a string of words.
+1276	x: a string
+1277	""" zero only """
+1278	correctly
+1279	Format a string
+1280	Returns the number corresponding to the input string.
+1281	The parameter s is a string that represents a number.
+1282	by adding a space
+1283	by adding a space
+1284	by adding a space
+1285	Translation of three-digit numbers
+1286	s
+1287	str
+1288	Yes
+1289	a string
+1290	Yes
+1291	the i th more token
+1292	the token
+1293	to get the next token
+1294	the i th more token
+1295	to replace the entity value in the given string
+1296	a string
+1297	to replace the entity value in the given string
+1298	a string
+1299	with the corresponding unicode character
+1300	Yes
+1301	a character
+1302	true
+1303	a character
+1304	true
+1305	Add a dish to the menu.
+1306	by adding a dish
+1307	bool
+1308	No
+1309	No
+1310	It calculates the total price of the order.
+1311	by adding the price of each dish * the number of dishes * the number of sales
+1312	the total
+1313	0
+1314	No
+1315	To check out the selected dishes and return the total price.
+1316	False
+1317	the total price
+1318	No
+1319	the total price
+1320	Returns a page of objects
+1321	a page number
+1322	a list of objects
+1323	by the page number
+1324	an empty list
+1325	a page number
+1326	an empty dictionary
+1327	an empty dictionary
+1328	current_page
+1329	No
+1330	to search for a keyword in the list of items
+1331	a keyword
+1332	by counting the number of results
+1333	by dividing the total number of results by the page size
+1334	the number of results
+1335	to merge the pdfs in the list into one pdf
+1336	by using the PyPDF2 library
+1337	the output_filepath
+1338	the message
+1339	this
+1340	Extracts the text from the pdfs
+1341	a list of strings
+1342	by calling the `extract_text()` method of the `Page` class of the `pdfminer` library
+1343	Yes
+1344	the pdf readers
+1345	Validate the name.
+1346	the name
+1347	none
+1348	none
+1349	str
+1350	Validates the sex of the user
+1351	a string
+1352	str
+1353	an error
+1354	No
+1355	Validate a phone number.
+1356	by checking its length and whether it contains only digits
+1357	none
+1358	the phone number
+1359	the phone number
+1360	To initialize the game.
+1361	self
+1362	None
+1363	by looking at the map
+1364	by looking at the map
+1365	Check if the game is over.
+1366	by counting the number of boxes on the target list
+1367	Yes
+1368	True
+1369	To check if the game is over.
+1370	Moves the player in the given direction.
+1371	the direction of the move
+1372	by adding the direction to the current position
+1373	Yes
+1374	True if the player has won
+1375	to check if the pattern is in the text
+1376	pattern and text
+1377	a boolean
+1378	correctly
+1379	Yes, you can use it like this
+1380	in a text
+1381	pattern : a regular expression
+1382	a list of all non-overlapping matches
+1383	Yes
+1384	to find all occurrences of a pattern in a text
+1385	Split the text into a list of patterns.
+1386	2
+1387	a list of strings
+1388	by the given pattern
+1389	Yes
+1390	the same as the re
+1391	pattern : string or compiled regular expression
+1392	the text
+1393	with the given text
+1394	by using regular expressions
+1395	Returns the pattern for the email address
+1396	a string
+1397	by using the email address pattern
+1398	Yes
+1399	No
+1400	to generate the pattern for the phone number field
+1401	a string
+1402	by country
+1403	Yes
+1404	11
+1405	the pattern for splitting sentences
+1406	the pattern
+1407	correctly
+1408	to generate the pattern for splitting sentences
+1409	to split sentences
+1410	according to the pattern
+1411	a string
+1412	a list of sentences
+1413	according to the pattern
+1414	the text
+1415	Validates a phone number.
+1416	phone_number
+1417	a boolean
+1418	to validate a phone number
+1419	Yes
+1420	Returns a list of email addresses found in the text.
+1421	a string
+1422	Yes
+1423	No
+1424	the email address
+1425	self
+1426	Attack another character.
+1427	by subtracting the defense of the other character from the attack power of the character
+1428	The character with the higher attack power attacks the character with the lower defense.
+1429	This method is called when the user wants to attack another character.
+1430	To restore the entity's HP to 100.
+1431	int
+1432	by adding 10 points
+1433	No
+1434	No
+1435	To increase the amount of experience of the character.
+1436	by the amount of experience points
+1437	No
+1438	in the game
+1439	No
+1440	The level increases by 1 and the hp, attack_power, and defense increase by 20.
+1441	the level
+1442	No
+1443	by 1
+1444	The level increases by 1 and the character's hp, attack power, and defense increase by 20.
+1445	Check if the entity is alive.
+1446	true
+1447	Yes
+1448	by checking if its hp is greater than 0
+1449	No
+1450	to add an address to the white list
+1451	str
+1452	bool
+1453	No
+1454	true
+1455	Remove an address from the white list.
+1456	the address to be removed
+1457	False
+1458	No
+1459	by removing the address from the whitelist
+1460	Receive data from the server.
+1461	dict
+1462	a dictionary
+1463	in the info dictionary
+1464	false
+1465	Set the send struct field to the info structure.
+1466	an error message
+1467	Yes
+1468	the info structure
+1469	No
+1470	to show the message
+1471	the type of the message
+1472	the message structure
+1473	the message structure
+1474	False
+1475	Add an item to the inventory.
+1476	item
+1477	1
+1478	No
+1479	No
+1480	Remove an item from the inventory.
+1481	item: the item to remove quantity: the number of items to remove
+1482	No
+1483	To remove an item from the inventory
+1484	No
+1485	the items
+1486	to view the items in the cart
+1487	a dictionary
+1488	Yes
+1489	No
+1490	To calculate the total price of the inventory.
+1491	float
+1492	the total price
+1493	Yes, I can
+1494	0
+1495	to add a user to the list
+1496	true
+1497	by checking the list
+1498	the user
+1499	Yes
+1500	"Signs in a user.
+Returns Boolean value according to the result."
+1501	bool
+1502	False
+1503	True
+1504	No
+1505	Check if the user is in the system.
+1506	username
+1507	True or False
+1508	No
+1509	No
+1510	Check if all users are signed in.
+1511	bool
+1512	by checking if all users are not None
+1513	True
+1514	Returns True if all users are signed in, False otherwise.
+1515	a list of usernames
+1516	a list of usernames
+1517	Returns a list of all users that are not signed in
+1518	by checking the value of the `signed_in` attribute for each user
+1519	No
+1520	"Move the snake in the given direction.
+If the new position is the same as the food position,
+the food is eaten.
+If the new position is on the body,
+the game is reset."
+1521	If the new position of the snake's head is equal to the position of the food, the food is eaten.
+1522	The snake will disappear.
+1523	If the position of the snake's head is not equal to the position of the food or its own body, the position of the snake's head is changed to the position of the food.
+1524	direction: (x, y)
+1525	Randomly picks a position on the food.
+1526	randomly
+1527	until the position is not in the list of positions
+1528	self
+1529	No
+1530	Resets the game.
+1531	The length of the snake is set to 1, and the position of the snake is set to the center of the screen.
+1532	randomly
+1533	1
+1534	No
+1535	Eats the food and increases the length and the score by 100.
+1536	by 1
+1537	by 100
+1538	It is a function that increases the length and the score by 100.
+1539	It adds 1 to the length of the snake and increases the score by 100.
+1540	to split sentences from a string
+1541	by splitting on whitespace
+1542	the period
+1543	No
+1544	a list of sentences
+1545	by using the split() function
+1546	the number of words in a sentence
+1547	by removing all non - alphanumeric characters
+1548	sentence
+1549	by using the split() function
+1550	to process the text file
+1551	a string
+1552	in the text
+1553	int
+1554	by counting the number of words in the sentences
+1555	to generate a select statement
+1556	fields
+1557	all fields
+1558	none
+1559	a string
+1560	to create an insert statement for the given data
+1561	a dictionary
+1562	with the given data
+1563	the sql statement
+1564	No
+1565	Update a row in the table.
+1566	data
+1567	a string
+1568	No
+1569	the sql statement
+1570	Returns the SQL statement to delete rows from the table.
+1571	the condition
+1572	the sql statement
+1573	Yes
+1574	the sql statement
+1575	a list of female persons that have the given age
+1576	the age
+1577	by using the given age
+1578	list
+1579	Selects the female person that has the given age under the female gender.
+1580	To select the records with the age between the given range.
+1581	min_age and max_age
+1582	by age range
+1583	select * from users where age between min_age and max_age
+1584	by age range
+1585	to create a select statement
+1586	a table name and a list of columns
+1587	*
+1588	correctly
+1589	correctly
+1590	to create a insert statement
+1591	table and data
+1592	with the given data
+1593	a dictionary
+1594	Yes
+1595	to delete rows from a table
+1596	table
+1597	with the given where clause
+1598	Delete rows from a table
+1599	a string
+1600	to update a table
+1601	a string
+1602	in a dictionary
+1603	in the form of a dictionary
+1604	Yes
+1605	the median of the values in the data array
+1606	list
+1607	median(list)
+1608	"using the "" median of two sorted lists "" method"
+1609	by averaging the two middle values
+1610	Returns the mode of the given data.
+1611	a list
+1612	the mode of the given data
+1613	Yes
+1614	using the most common value
+1615	to compute the correlation between two points
+1616	x and y
+1617	using the pearson correlation coefficient
+1618	none
+1619	float
+1620	the average of a sequence of numbers
+1621	data
+1622	float
+1623	No
+1624	the sum of the data divided by the number of data
+1625	Returns the correlation matrix of the data.
+1626	the data
+1627	a list of lists
+1628	using the pearson correlation coefficient
+1629	No
+1630	the standard deviation of a series of data
+1631	data
+1632	none
+1633	by using the n - 1 method
+1634	by using the n - 1 method
+1635	the z - score for each value in data
+1636	data
+1637	Returns the z scores of a list of floats.
+1638	by subtracting the mean from each value and dividing by the standard deviation
+1639	the number of standard deviations by which the value of an observation or data point is above or below the mean
+1640	Add stock to the portfolio.
+1641	the stock
+1642	No
+1643	the quantity is added to the existing stock
+1644	by adding a stock dictionary
+1645	Removes a stock from the portfolio.
+1646	a dictionary
+1647	No
+1648	by checking the quantity of the stock in the portfolio
+1649	Yes
+1650	To buy a stock
+1651	a stock dictionary
+1652	True if the transaction was successful, False otherwise
+1653	by checking if the amount of money is greater than the price of the stock
+1654	adds the stock to the portfolio and subtracts the cash_balance
+1655	Sells a stock to the customer.
+1656	self, stock
+1657	True if the stock was sold, False otherwise
+1658	by the amount of the stocks price
+1659	by adding the price of the stock to the cash balance
+1660	the total value of the portfolio
+1661	by adding the value of the cash balance and the value of each stock in the portfolio
+1662	No
+1663	float
+1664	Yes
+1665	the total value of the portfolio and the summary of the stocks in the portfolio
+1666	the stocks in the portfolio
+1667	the stocks
+1668	the name of the stock
+1669	by adding the value of each stock
+1670	returns the value of the given stock
+1671	self and stock
+1672	the value of the given stock
+1673	by multiplying the price by the quantity
+1674	Yes
+1675	Creates the students table in the database.
+1676	id
+1677	self
+1678	None
+1679	in the database
+1680	sqlite3
+1681	to insert a new student into the database
+1682	student_data
+1683	to insert a new student into the database
+1684	by name
+1685	Search for a student by name.
+1686	name
+1687	by name
+1688	a list of tuples
+1689	No
+1690	to delete a student from the database
+1691	a name
+1692	a string
+1693	delete_query
+1694	by name
+1695	Read the file as json
+1696	by reading the file as a string
+1697	correctly
+1698	Yes, I can
+1699	a dictionary
+1700	Read the file
+1701	str
+1702	gracefully
+1703	Yes
+1704	No
+1705	Write the given content to the file.
+1706	the content
+1707	in write mode
+1708	with the given content
+1709	No
+1710	To process the file.
+1711	the content of the file
+1712	by using the isalpha() method
+1713	the content
+1714	No
+1715	the target temperature
+1716	the target temperature
+1717	in degrees celsius
+1718	using the get_target_temperature function
+1719	the target temperature
+1720	setter for property target temperature
+1721	float
+1722	No
+1723	with a new value
+1724	the temperature
+1725	to get the mode of the turtle
+1726	the mode
+1727	No
+1728	No
+1729	No
+1730	to set the mode of the unit
+1731	the mode
+1732	the mode of the unit
+1733	bool
+1734	No
+1735	Set the mode to either heat or cool based on the current temperature.
+1736	the current temperature
+1737	by comparing the current temperature to the target temperature
+1738	No
+1739	No
+1740	Check if the current temperature is not greater than target temperature.
+1741	true
+1742	true
+1743	No
+1744	No
+1745	To simulate the operation of the heater.
+1746	by changing the current_temperature
+1747	the time it takes to reach the target temperature
+1748	by 1 degree per second
+1749	No
+1750	This is a function that makes a move on the board.
+1751	row and col
+1752	Boolean
+1753	the value of the current_player attribute
+1754	Yes
+1755	the winner
+1756	by checking all possible winning combinations
+1757	the player
+1758	the player who has won
+1759	the winner
+1760	Check if the board is full.
+1761	Boolean
+1762	False
+1763	by checking if there is any space in the board
+1764	True
+1765	to get the current time
+1766	a string
+1767	in hh:mm:ss format
+1768	the format
+1769	Returns the current time in the format %H:%M:%S
+1770	to get the current date
+1771	a string
+1772	in the format % y - % m - % d
+1773	No
+1774	No
+1775	to add seconds to the datetime
+1776	seconds
+1777	the new datetime
+1778	"in the task3
+
+Summary: this method adds seconds to the datetime
+
+Code: def add_seconds(self, seconds):
+        new_datetime = self.datetime + datetime.timedelta(seconds=seconds)
+        format = ""%H:%M:%S""
+        return new_datetime.strftime(format)
+
+Answer: in the task3
+
+Answer: in the task3"
+1779	Yes, I can
+1780	Convert a string to a datetime object.
+1781	datetime
+1782	%Y-%m-%d %H:%M:%S
+1783	datetime
+1784	a datetime object
+1785	a datetime object
+1786	a string
+1787	in the format % y - % m - % d % h : % m : % s
+1788	Yes
+1789	Yes
+1790	the number of minutes between two times
+1791	string_time1 and string_time2
+1792	in between two times
+1793	by adding 0
+1794	Get the minutes of the time interval.
+1795	To get the formatted time
+1796	year, month, day, hour, minute, second
+1797	in the get_format_time method
+1798	Yes
+1799	Yes, of course!
+1800	Returns the cosine of the argument.
+1801	x
+1802	the cosine of the argument
+1803	Returns the cosine of the argument.
+1804	10
+1805	Returns the factorial of a number
+1806	int
+1807	int
+1808	recursively
+1809	The factorial of a number is the product of all the integers from 1 to the number.
+1810	float
+1811	float
+1812	float
+1813	To calculate the taylor series expansion of the cosine function.
+1814	The taylor function is a function that calculates the value of the sine function using the Taylor series.
+1815	the sine of the angle
+1816	x
+1817	in radians
+1818	by using the Taylor series expansion
+1819	float
+1820	Returns the tangent of the argument.
+1821	x: The angle in radians
+1822	float
+1823	false
+1824	10
+1825	generates 4 random cards
+1826	To generate cards randomly
+1827	self
+1828	to check if the length of the list is 4
+1829	Yes, I can
+1830	to check the number of cards in the hand
+1831	No
+1832	the number of cards in the hand
+1833	This is a function that returns the number of cards in the hand.
+1834	to get the number of cards in the hand
+1835	Check if the expression is correct or not.
+1836	If the expression is 'pass', it returns the cards of the player.
+1837	It is a variable that stores the number of cards that have been used in the expression.
+1838	If all the numbers in the expression are used, the expression is evaluated.
+1839	Check if the expression is valid.
+1840	To check if the expression is true or false
+1841	a string
+1842	by returning false
+1843	24
+1844	No
+1845	to get the scheme part of the url
+1846	code
+1847	the scheme
+1848	None
+1849	Yes
+1850	to get the host from the url
+1851	the host
+1852	Yes
+1853	example
+1854	No
+1855	to get the path part of the url
+1856	in the urlparse module
+1857	a string
+1858	the path part of the url
+1859	to get the path part of the url
+1860	a dictionary
+1861	correctly
+1862	by ampersand
+1863	in the url
+1864	return none
+1865	the fragment part of the url
+1866	by finding the first # character
+1867	to get the fragment part of the url
+1868	the fragment
+1869	correctly
+1870	to add a segment to the end of the path
+1871	a path
+1872	Yes
+1873	the segment
+1874	Yes
+1875	to parse the path
+1876	2
+1877	path
+1878	the charset
+1879	the path
+1880	to fix the path
+1881	str
+1882	a string
+1883	the path
+1884	Yes
+1885	Insert a new user into the database.
+1886	username and password
+1887	to insert a new user
+1888	by using the cursor object
+1889	the user i d
+1890	to search for a user by username
+1891	a username
+1892	a user object
+1893	by username
+1894	by username
+1895	Delete a user from the database.
+1896	with the username of the user to be deleted
+1897	the user is deleted
+1898	No
+1899	Yes
+1900	to validate the user login
+1901	username and password
+1902	true
+1903	by checking the username and password
+1904	true
+1905	to calculate the cosine similarity between two vectors
+1906	two vectors
+1907	a 1d numpy array
+1908	float
+1909	the cosine similarity between two vectors
+1910	Compute cosine similarities between a vector and a set of other vectors.
+1911	vector_1 : the vector from which similarities are to be computed vectors_all : all the vectors
+1912	(1, n_features)
+1913	(1, n_features)
+1914	the cosine similarity between the vector_1 and all the vectors in vectors_all
+1915	the cosine similarity of two lists of vectors
+1916	vector_list_1 : list of vectors
+1917	as the mean of the rows in each matrix
+1918	zero division error
+1919	float
+1920	to compute the idf weights for the dictionary
+1921	total_num : total number of documents in the corpus number_dict : dictionary of word and its frequency
+1922	by the following formula
+1923	a dictionary
+1924	by the number of documents
+1925	Add an item to the inventory.
+1926	item_name
+1927	the item
+1928	No
+1929	Yes, I can
+1930	To add the amount of money to the balance of the coin.
+1931	int
+1932	the balance
+1933	Yes
+1934	Yes
+1935	purchases an item from the inventory
+1936	item_name: the name of the item to be purchased
+1937	the balance
+1938	False
+1939	the item is in the inventory
+1940	This method restores an item from the inventory.
+1941	item_name: name of the item to be restocked quantity: quantity of the item to be restocked
+1942	True
+1943	True
+1944	by the given quantity
+1945	False
+1946	the items in the vending machine
+1947	in the format
+1948	the string
+1949	the string
+1950	Adds a product to the inventory.
+1951	product_id : int - > the product id
+1952	the product
+1953	by adding the quantity to the existing quantity
+1954	by adding a new product to the inventory
+1955	Update the quantity of a product in the inventory.
+1956	product_id
+1957	Yes
+1958	No
+1959	No
+1960	to get the quantity of a product in the inventory
+1961	the product_id
+1962	the quantity of a product
+1963	False
+1964	No
+1965	order_id : str product_id : str quantity : int
+1966	by checking the quantity of the product
+1967	No
+1968	the order
+1969	Yes
+1970	to change the status of an order
+1971	order_id: order number
+1972	False
+1973	No
+1974	successfully
+1975	Returns the status of an order
+1976	an order_id
+1977	False
+1978	by order_id
+1979	No
+1980	This method is called when a weather query is received.
+1981	weather_list: a list of dictionaries containing weather information for a given city
+1982	a tuple
+1983	by returning false
+1984	automatically
+1985	Set the city of the station.
+1986	String
+1987	No
+1988	Yes, the city of the station is set to the city parameter.
+1989	city
+1990	converts temperature in celsius to fahrenheit
+1991	float
+1992	9/5
+1993	by self
+1994	The method celsius_to_fahrenheit() converts the temperature in Celsius to Fahrenheit.
+1995	to convert the temperature from fahrenheit to celsius
+1996	the temperature in celsius
+1997	self
+1998	The Fahrenheit temperature is converted to Celsius.
+1999	by subtracting 32 and multiplying by 5/9
+2000	"Convert a string of words into an integer.
+For example: ""one hundred and twenty three"" becomes 123."
+2001	a string
+2002	by interpreting hyphens as minus signs
+2003	To keep track of the current value and the result of the current value.
+2004	that the number is a cardinal or ordinal number
+2005	To check if the textnum is valid or not
+2006	True
+2007	False
+2008	Check if the input is valid.
+2009	the text
+2010	Read the xml file and create the tree
+2011	the root element
+2012	by using the file name
+2013	No
+2014	using the etree library
+2015	Write the xml file
+2016	the file name
+2017	bool
+2018	gracefully
+2019	using the xml module
+2020	To process the data in the xml file.
+2021	the file name
+2022	by converting all the text in the XML file to upper case
+2023	the file name
+2024	to process the data
+2025	to find all elements of a given name in the tree
+2026	the name of the element
+2027	a list of elements
+2028	by name
+2029	a list of elements
+2030	to read the zip file
+2031	the file name
+2032	the zip file
+2033	in the task 1 code
+2034	None
+2035	to extract all files
+2036	the output path
+2037	true
+2038	false
+2039	Yes
+2040	to extract a file from the zip file
+2041	the file name and the output path
+2042	true
+2043	gracefully
+2044	Yes
+2045	to create a zip file with the given files
+2046	files: a list of files to be added to the zip file output_file_name: the name of the zip file to be created
+2047	a zip file
+2048	with the given files
+2049	gracefully
