@@ -170,13 +170,15 @@ Takeouts from manual analysis of the generated answers:
 
 ---
 
-# Analysis of Results
+# Proposed Improvements
 
-The model does not change the prediction often. Maybe, trying different decoding techniques other than greedy decoding will give the model more freedom in choosing the words and, probably, making better predictions.
+1. The model does not change the prediction often. Maybe, trying different decoding techniques other than greedy decoding will give the model more freedom in choosing the words and, probably, making better predictions.
+
+2. Quite many cases of incorrect predictions were caused by problems with the quality of the testing dataset. These problems include grammatical mistakes, unclear formulation of the question, irrelevant answer, excessively wordy answer. They may threaten the validity of the experiments. The models could be also tested on other datasets that do not have such problems.
 
 ---
 
-# Results of the First Proposed Improvement
+# Results of Changing Decoding Strategy
 
 | Decoding Type |  BLEU4 | BERTScore Precision | BERTScore Recall | BERTScore F1 | F1 | EM |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -188,26 +190,41 @@ The model does not change the prediction often. Maybe, trying different decoding
 
 ---
 
-# Results of the Second Proposed Improvement
+# Results of Changing Testing Dataset
 
-Evaluate the model on a high-quality subset of the testing dataset
+Table IV. Evaluation Metrics Values for Baseline and Proposed Question Answering Models on a Higher Quality Subset
 
 | Model | BLEU4 | BERTScore_P | BERTScore_R | BERTScore_F1 | F1 | EM |
 | --- |--- | --- | --- | --- | --- | --- |
-| Baseline | 28.61% | 12.99% | 9.73% | 81.15% | 74.09% | 69.66% | 71.63% | 43.27% | 9.00% |
-| Proposed Model | 20.45% | 7.42% | 4.65% | 76.33% | 70.23% | 64.12% | 66.75% | 35.22% | 7.00% |
+| Baseline | 9.73% | 74.09% | 69.66% | 71.63% | 43.27% | 9.00% |
+| Proposed Model | 4.65% | 70.23% | 64.12% | 66.75% | 35.22% | 7.00% |
 
 ---
 
-# Results of the Third Proposed Improvement
+# Results of Changing Testing Dataset
 
-Evaluate the model on another testing dataset (ClassEvalBenchmark)
+Table V. Evaluation Metrics Values for Baseline and Proposed Question Answering Models on ClassEval Benchmark
 
-| Model | BLEU-4 | BERTScore_P | BERTScore_R | BERTScore_F1 | F1 | EM |
+| Model | BLEU4 | BERTScore_P | BERTScore_R | BERTScore_F1 | F1 | EM |
 | --- | --- | --- | --- | --- | --- | --- |
 Baseline | 4.24% | 65.26% | 52.72% | 57.96% | 24.86% | 0.39% |
 Proposed Model | 1.18% | 59.37% | 46.31% | 51.66% | 20.49% | 0.34% |
 
 ---
 
-# Conclusion and Future Work
+# Conclusion
+
+* Baseline question-answering StarCoder model and the proposed model were trained and tested.
+* The proposed model happened to show poorer answers than the baseline model.
+* 31% of the answers are actually the same or even better; the other 61% of the answer are actually worse
+* Changing decoding strategies could not increase the metric values of the testing answers.
+* The testing on other datasets showed no superiority of the proposed model over the baseline model.
+*  Implementing injection of the generated summaries in the input of the model leads to the quality decrease in the circumstances of the presented experiments. 
+
+---
+
+# Future Work
+
+The problem still requires further investigation whether the results of this experiment were significantly affected by the threats such as flawed evaluation.
+
+BERTScore is a decent metric for comparing the text based on their meaning. However, it is still quite sensitive to the formulations and the terms used. Maybe, the metric that is not such sensitive would also evaluate the answers in a different way.
